@@ -185,33 +185,33 @@ The following information of every found structure candidate (of a score above t
 
 The following is an example of running result from RC_NC_008787.fasta.
 
-************************************************************
-* Whole Structure Result                                   *
-*                                                          *
-* Profile file : tmRNA_43_training_24_02.txt               *
-* Profile length : 582                                     *
-*                                                          *
-* Filter type : HMM                                        *
-* Filter info : positions from 535    to 581               *
-*                                                          *
-* Genome file : RC_NC_008787.fasta                         *
-* Number of sequences : 1                                  *
-* Total length of sequences : 1616554                      *
-*                                                          *
-* Search parameters setting:                               *
-* Pseudocount = 0.001                                      *
-* Num of stem candidates = 10                              *
-* Score threshold for hits = 0                             *
-* Num of nt overlap between stems = 2                      *
-* Candidate representatives only = Yes                     *
-* Shortest candidate representatives = Yes                 *
-* IShiftNumMergeCand = No                                  *
-* Nts allowed in null loops = 3                            *
-* Pcoeff = 2                                               *
-* Search with jump = Yes                                   *
-* Search step size = 1                                     *
-* Search reversed complement sequence = Yes                *
-************************************************************
+------------------------------------------------------------
+- Whole Structure Result                                   -
+-                                                          -
+- Profile file : tmRNA_43_training_24_02.txt               -
+- Profile length : 582                                     -
+-                                                          -
+- Filter type : HMM                                        -
+- Filter info : positions from 535    to 581               -
+-                                                          -
+- Genome file : RC_NC_008787.fasta                         -
+- Number of sequences : 1                                  -
+- Total length of sequences : 1616554                      -
+-                                                          -
+- Search parameters setting:                               -
+- Pseudocount = 0.001                                      -
+- Num of stem candidates = 10                              -
+- Score threshold for hits = 0                             -
+- Num of nt overlap between stems = 2                      -
+- Candidate representatives only = Yes                     -
+- Shortest candidate representatives = Yes                 -
+- IShiftNumMergeCand = No                                  -
+- Nts allowed in null loops = 3                            -
+- Pcoeff = 2                                               -
+- Search with jump = Yes                                   -
+- Search step size = 1                                     -
+- Search reversed complement sequence = Yes                -
+------------------------------------------------------------
 
 Whole structure search hit 1
 ----------------------------
@@ -263,13 +263,13 @@ Structure alignment
        361 XXXXXYYYYYYY 373
     338299 CCCCUCGCUUCC 338311
 
-************************************************************
-* Searched done : with RNATOPS V1.2                        *
-* By RNA-Informatics @ UGA                                 *
-* Total no of hits: 1                                      *
-* Total time used 0.273942        hours                    *
-* Time: 23:09:40 EST 2008-11-21                            *
-************************************************************
+------------------------------------------------------------
+- Searched done : with RNATOPS V1.2                        -
+- By RNA-Informatics @ UGA                                 -
+- Total no of hits: 1                                      -
+- Total time used 0.273942        hours                    -
+- Time: 23:09:40 EST 2008-11-21                            -
+------------------------------------------------------------
 
 Note:
 The folded structure is the predicted secondary structure of the found RNA candidate 
