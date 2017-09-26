@@ -1,0 +1,85 @@
+************************************************************
+* Whole Structure Result                                   *
+*                                                          *
+* Profile file : tmRNA_43_training_24_02.txt               *
+* Profile length : 582                                     *
+*                                                          *
+* Filter type : HMM                                        *
+* Filter info : positions from 535    to 581               *
+*                                                          *
+* Genome file : RC_NC_008787.fasta                         *
+* Number of sequences : 1                                  *
+* Total length of sequences : 1616554                      *
+*                                                          *
+* Search parameters setting:                               *
+* Pseudocount = 0.001                                      *
+* Num of stem candidates = 10                              *
+* Score threshold for hits = 0                             *
+* Num of nt overlap between stems = 2                      *
+* Candidate representatives only = Yes                     *
+* Shortest candidate representatives = Yes                 *
+* IShiftNumMergeCand = No                                  *
+* Nts allowed in null loops = 3                            *
+* Pcoeff = 2                                               *
+* Search with jump = Yes                                   *
+* Search step size = 1                                     *
+* Search reversed complement sequence = Yes                *
+************************************************************
+
+Whole structure search hit 1
+----------------------------
+RC_NC_008787
+Plus search result
+Hit Positions: 337938-338291
+Alignment score = 17.2457
+
+Folded structure
+
+         1 YYYYYY..........WWWWWWWWWW.....VVVVVUUUUTTTTTTAAA**GGGGG.AAA 61
+    337939 GGAGCGACTTGGCTTCGACAGGAGTAAGTCTGCTTAGATGGCATGTCGCTTTGGGCAAAG 337999
+
+        61 AA......GGGGGGG.........................................IIII 121
+    337999 CGTAAAAAGCCCAAATAAAATTAAACGCAAACAACGTTAAATTCGCTCCTGCTTACGCTA 338059
+
+       121 IIHHHH........HHH*IIII*MMMMMM.LLLL*JJJ.BBBBBBJJJ*LLLLMMMMMMM 181
+    338059 AAGCTGCGTAAGTTCAGTTGAGCCTGAAATTTAAGTCATACTATCTAGCTTAATTTTCGG 338119
+
+       181 ........BBBBBB..OOOOOOOO**CCCC...OOOO.OOOOOO...CCCCCC....QQQ 241
+    338119 TCATTTTTGATAGTGTAGCCTTGCGTTTGACAAGCGTTGAGGTGAAATAAAGTCTTAGCC 338179
+
+       241 QQQQQQQ.......P**DDDDD...P**QQQQQQQQ.........DDDiDDDD...TTTT 301
+    338179 TTGCTTTTGAGTTTTGGAAGATGAGCGAAGTAGGGTGAAGTAGTCATCTTTGCTAAGCAT 338239
+
+       301 TT...UUUU....VVVVV.WWWWWWWWWW.XXXXX.......XXXXXYYYY.YY 355
+    338239 GTAGAGGTCTTTGTGGGATTATTTTTGGACAGGGGTTCGATTCCCCTCGCTTCC 338293
+
+Structure alignment
+
+         1 YYYYYYY..........WWWWWWWWWW.....VVVVVUUUUTTTTTTAAA**GGGGG.AA 61
+    337939 GG-AGCGACUUGGCUUCGACAGGAGUAAGUCUGCUUAGAUGGCAUGUCGCUUUGGGCAAA 337999
+
+        61 AAA.....-GGGGGGG..............................------------.. 121
+    337999 GCGUAAAAAGCCCAAAUAA-AAUUAAACGCAAACAACGUUAAAU--UCGCUCCUGCUUAC 338059
+
+       121 IIIIIIHHHH.........HHH*IIII*MMMMMM-LLLL*JJJ.BBBBBBJJJ*LLLLMM 181
+    338059 GCUAAAGCUGCGUAAGU-UCAGUUGAGCCUGAAAUUUAAGUCAUACUAUCUAGCUUAAUU 338119
+
+       181 MMMMM........BBBBBB..--OOOOOOOO**CCCC...OOOOrOOOOOO.......rC 241
+    338119 UUCGGUCAUUUUUGAUAGU--GUAGCCUUGCGUUUGACAAGCGUUGAGGUG---AA--AU 338179
+
+       241 CCCCC..--QQQQQQQQQQ------.P**DDDDD...P**QQQQQQQQ....-......D 301
+    338179 AAAGUCUUAGCCUUGCUUUUGAGUUUUGGAAGAUGAGCGAAGUAGGGUGAAGU--AGUCA 338239
+
+       301 DD-DDDD...TTTTTT.-.UUUU----VVVVV.....WWWWWWWWWW.XXXXX....... 361
+    338239 UCUUUGCUAAGCAUGUAGAGGUCUUUGUGGGA----UUAUUUUUGGACAGGGGUUCGAUU 338299
+
+       361 XXXXXYYYYYYY 373
+    338299 CCCCUCGCUUCC 338311
+
+************************************************************
+* Searched done : with RNATOPS V1.2                        *
+* By RNA-Informatics @ UGA                                 *
+* Total no of hits: 1                                      *
+* Total time used 0.273942        hours                    *
+* Time: 23:09:40 EST 2008-11-21                            *
+************************************************************

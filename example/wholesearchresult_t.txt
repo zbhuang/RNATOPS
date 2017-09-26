@@ -1,0 +1,104 @@
+************************************************************
+* Whole Structure Result                                   *
+*                                                          *
+* Profile file : t_02.txt                                  *
+* Profile length : 88                                      *
+*                                                          *
+* Filter type : HMM                                        *
+* Filter info : positions from 1      to 36                *
+*                                                          *
+* Genome file : revised-g.txt                              *
+* Number of sequences : 4                                  *
+* Total length of sequences : 4600                         *
+*                                                          *
+* Search parameters setting:                               *
+* Pseudocount = 0.001                                      *
+* Num of stem candidates = 10                              *
+* Score threshold for hits = 0                             *
+* Num of nt overlap between stems = 2                      *
+* Candidate representatives only = Yes                     *
+* Shortest candidate representatives = Yes                 *
+* IShiftNumMergeCand = No                                  *
+* Nts allowed in null loops = 3                            *
+* Pcoeff = 2                                               *
+* Search with jump = Yes                                   *
+* Search step size = 1                                     *
+* Search reversed complement sequence = Yes                *
+************************************************************
+
+Whole structure search hit 1
+----------------------------
+genome1
+Plus search result
+Hit Positions: 261-341
+Alignment score = 38.6807
+
+Folded structure
+
+         1 DDDDDDD..AAAA........AAAA.BBBBB.......BBBBB..............CCC 61
+       262 GGCACUAUGGCCGAGUGGUUAAGGCGACAGACUUGAAAUCUGUUGGGCUCUGCCCGCGCU 322
+
+        61 CC.......CCCCCDDDDDDD 82
+       322 GGUUCAAAUCCUGCUGGUGUC 343
+
+Structure alignment
+
+         1 DDDDDDD..AAAA........AAAA.BBBBB.......BBBBB..-----------...C 61
+       262 GGCACUAUGGCCGAGUGGUUAAGGCGACAGACUUGAAAUCUGUU-GGGCUCUGCCCG-CG 322
+
+        61 CCCC.......CCCCCDDDDDDD 84
+       322 CUGGUUCAAAUCCUGCUGGUGUC 345
+
+Whole structure search hit 2
+----------------------------
+genome2
+Plus search result
+Hit Positions: 379-451
+Alignment score = 55.6473
+
+Folded structure
+
+         1 DDDDDDD..AAAA.........AAAA.BBBBB.......BBBBB.....CCCCC...... 61
+       380 GGUCUCUUGGCCCAGUUGGUUAAGGCACCGUGCUAAUAACGCGGGGAUCAGCGGUUCGAU 440
+
+        61 .CCCCCDDDDDDD 74
+       440 CCCGCUAGAGACC 453
+
+Structure alignment
+
+         1 DDDDDDD..AAAA...-.....AAAA.BBBBB.......BBBBB.....CCCCC...... 61
+       380 GGUCUCUUGGCCCAGUUGGUUAAGGCACCGUGCUAAUAACGCGGGGAUCAGCGGUUCGAU 440
+
+        61 .CCCCCDDDDDDD 74
+       440 CCCGCUAGAGACC 453
+
+Whole structure search hit 3
+----------------------------
+genome3
+Minus search result
+Hit Positions: 501-571
+Alignment score = 53.9627
+
+Folded structure
+
+         1 DDDDDDD..AAAA........AAAA.BBBBB.......BBBBB....CCCCC.......C 61
+       502 GCCATCTTAGTATAGTGGTTAGTACACATCGTTGTGGCCGATGAAACCCTGGTTCGATTC 562
+
+        61 CCCCDDDDDDD 72
+       562 TAGGAGATGGC 573
+
+Structure alignment
+
+         1 DDDDDDD..AAAA........AAAA.BBBBB.......BBBBB.....CCCCC....... 61
+       502 GCCAUCUUAGUAUAGUGGUUAGUACACAUCGUUGUGGCCGAUGAAA-CCCUGGUUCGAUU 562
+
+        61 CCCCCDDDDDDD 73
+       562 CUAGGAGAUGGC 574
+
+************************************************************
+* Searched done : with RNATOPS V1.2                        *
+* By RNA-Informatics @ UGA                                 *
+* Total no of hits: 3                                      *
+* Total time used 0.000225        hours                    *
+* Time: 22:52:24 EST 2008-11-21                            *
+************************************************************
